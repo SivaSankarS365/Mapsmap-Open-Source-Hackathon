@@ -21,12 +21,23 @@ The main objective of this hackathon is to develop a website app that organises 
 
 
  ## My contribution for the project
- * Build a smart AI system that can assign tags automatically once user enters a new problem. Tags can be added or removed from tagger system.
+
+| Question     | Predictions|
+| ----------- | ----------- |
+|Is happiness just chemicals flowing through your brain or something more?     | psychology, biochemistry, biology, humans, brain      |
+| Is there inherent order in nature or is it all chaos and chance?  | society, biology, evolution       |
+| What is the meaning of a good life? |psychology, society, law, ethics, culture|
+
+
+
+ 
+
+ * Built a smart AI system that can assign tags automatically once user enters a new problem. Tags can be added or removed from tagger system.
  * Developed algorithm to automatically organise the tags generated through graphs.
  ## Technical Details on my part
  * I collected all the questions and tags from [WorldBuilding](https://worldbuilding.stackexchange.com/), [The great outdoors](https://outdoors.stackexchange.com/), [Sustainable Living](https://sustainability.stackexchange.com/), [Space exploration](https://space.stackexchange.com/) stack exchange websites.
  * A fine tuned BERT based model is build from the collected data consisting of about 570 tags and 75,000 questions for training.
- * The model predicted with 98% binary accuracy.
+ * The model predicted with 99.65% binary accuracy on validation data.
  * An auxiliary model based on similarity scores was also build to deal with dynamic nature of the tags. (Tags can be removed or added by admin). 
  * The auxiliary model extracts all nouns (monograms and bigrams) from questions and embed them using Sense2Vec embeddings. A similarity search on the newly added tags is done to make prediction.
  * Once the websites gathers enough data, the BERT based model can be retrained on the collected data and thus the AI model will improve with time.
