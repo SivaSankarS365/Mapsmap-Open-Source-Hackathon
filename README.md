@@ -12,7 +12,11 @@ The main objective of this hackathon is to develop a website app that organises 
 
  * All the problems in the site are assigned tags by a Smart AI system. 
  * When the user enters the site, a graph showing all available tags with interconnections between them is displayed.
- ![Sample Graph](https://user-images.githubusercontent.com/76562393/163673121-9ba31352-a6b6-402c-8f34-9ad45f294db5.jpeg)
+ 
+
+ ![Sample Graph](https://user-images.githubusercontent.com/76562393/165536063-59029937-d666-428f-b282-9f071dca72ff.png)
+
+
 
  * The user can easily navigate to problems in his domain and also visualise the interconnections through the graph.
  * Once the user click a problem he will be navigated to the problem page where the user can view other users who are working on this, join the community working on the problem, provide funding, etc.
