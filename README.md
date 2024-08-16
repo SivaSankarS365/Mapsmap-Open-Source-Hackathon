@@ -1,7 +1,3 @@
-Here's the rewritten README.md:
-
----
-
 # Mapsmap Open Source Hackathon
 
 ## Overview
